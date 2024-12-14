@@ -7,7 +7,7 @@ const Sidebar = () => {
   const defaultWidgets = [
     { id: 'trending-posts', title: 'Trending Posts', content: 'Trending content here' },
     { id: 'recommended-reads', title: 'Recommended Reads', content: 'Recommended content here' },
-    { id: 'latest-news', title: 'Latest News', content: 'Latest news here' },
+    { id: 'latest-post', title: 'Latest Post', content: 'Latest post here' },
   ];
 
   const [widgets, setWidgets] = useState([]);
@@ -83,7 +83,7 @@ const Sidebar = () => {
       </div>
       <div className="content-container">
         <h1>Home Page</h1>
-        <p>Welcome to the home page! This area will contain the main content of the application.</p>
+        <p>Welcome to the home page </p>
       </div>
     </div>
   );
